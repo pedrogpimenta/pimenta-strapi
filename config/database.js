@@ -4,15 +4,15 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', 'pimenta0-pbdrq.mongodb.net'),
-        srv: env.bool('DATABASE_SRV', true),
-        port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'pimentastrapi'),
-        username: env('DATABASE_USERNAME', 'pimenta'),
-        password: env('DATABASE_PASSWORD', 'PfZPsudeRbGujoJq'),
+        host: process.env.DATABASE_HOST,
+        srv: true,
+        port: 27017,
+        database: process.env.DATABASE_NAME,
+        username: process.env.DATABASE_USERNAME,
+        password: process.env.DATABASE_PASSWORD,
       },
       options: {
-        authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
+        authenticationDatabase: process.env.AUTHENTICATION_DATABASE', null),
         ssl: env.bool('DATABASE_SSL', true),
       },
     },
