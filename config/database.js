@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
         password: process.env.DATABASE_PASSWORD,
       },
       options: {
-        authenticationDatabase: process.env.AUTHENTICATION_DATABASE', null),
+        authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
         ssl: env.bool('DATABASE_SSL', true),
       },
     },
