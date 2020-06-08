@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "name": "Links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Target": {
+      "type": "string",
+      "default": "_self"
+    }
+  }
+}

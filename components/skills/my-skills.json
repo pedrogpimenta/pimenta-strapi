@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_skills_my_skills",
+  "info": {
+    "name": "MySkills",
+    "icon": "drafting-compass"
+  },
+  "options": {},
+  "attributes": {
+    "Skill": {
+      "type": "string"
+    }
+  }
+}

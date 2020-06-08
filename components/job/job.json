@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_job_jobs",
+  "info": {
+    "name": "Job",
+    "icon": "toolbox"
+  },
+  "options": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "YearsWorked": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_posts",
+  "info": {
+    "name": "Posts",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "PostTitle": {
+      "type": "string"
+    },
+    "PostURL": {
+      "type": "string"
+    }
+  }
+}

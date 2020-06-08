@@ -11,6 +11,44 @@
   "attributes": {
     "SiteTitle": {
       "type": "string"
+    },
+    "SiteDescription": {
+      "type": "string"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    },
+    "ProjectsTitle": {
+      "type": "string"
+    },
+    "AboutMeTitle": {
+      "type": "string"
+    },
+    "AboutMeContent": {
+      "type": "richtext"
+    },
+    "MySkills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.my-skills"
+    },
+    "WorkHistoryTitle": {
+      "type": "string"
+    },
+    "Job": {
+      "type": "component",
+      "repeatable": true,
+      "component": "job.job"
+    },
+    "BlogTitle": {
+      "type": "string"
+    },
+    "Posts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.posts"
     }
   }
 }
