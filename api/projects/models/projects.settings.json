@@ -44,6 +44,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Published": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
