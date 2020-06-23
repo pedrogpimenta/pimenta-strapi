@@ -48,6 +48,11 @@
     "Published": {
       "type": "boolean",
       "default": false
+    },
+    "Order": {
+      "type": "integer",
+      "min": 1,
+      "required": true
     }
   }
 }

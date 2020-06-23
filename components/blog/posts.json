@@ -11,6 +11,9 @@
     },
     "PostURL": {
       "type": "string"
+    },
+    "PostDescription": {
+      "type": "string"
     }
   }
 }
