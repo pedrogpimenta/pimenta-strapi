@@ -52,6 +52,9 @@
     },
     "projects": {
       "collection": "projects"
+    },
+    "MySkillsTitle": {
+      "type": "string"
     }
   }
 }
